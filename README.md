@@ -93,18 +93,6 @@ This app has not been verified yet by Google in order to use Google Sign In.
 
     ![Enable](./assets/enable.png)
 
-3. Create secret that contain your CLIENT_ID and CLIENT_SECRET
-    - Click `Settings` > `Secrets` > `Add a new secret`
-
-    ![Step 13](./assets/step13.jpg)
-
-    - Open your `client_id.json` file then copy `CLIENT_ID` and `CLIENT_SECRET` to create secrets
-
-    ![Step 14](./assets/step14.jpg)
-    ![Step 15](./assets/step15.jpg)
-    ![Step 16](./assets/step16.jpg)
-
-    - Make sure you have CLIENT_ID and CLIENT_SECRET secret
 
     ![Step 17](./assets/step17.jpg)
 </details>
@@ -186,6 +174,10 @@ This app has not been verified yet by Google in order to use Google Sign In.
 <summary>
     Using GDrive CLI
 </summary>
+
+Directory contain `oauth_client.json` to config CLIENT_ID and CLIENT_SECRET secret:
+- Linux: `~/.config/gdrive/oauth_client.json`
+- Windows: `%LOCALAPPDATA%\gdrive\oauth_client.json`
 
 On unix systems run `chmod +x {filename}` after download to make the binary executable.
 
